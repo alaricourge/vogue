@@ -204,39 +204,3 @@ Ensure image extensions match:
 # The code looks for .png, .jpg, .jpeg
 # Make sure your files have these extensions
 ```
-
-### Empty visualizations
-Check that:
-1. Embeddings were extracted successfully
-2. Image paths are correct
-3. Metadata CSV matches image IDs
-
-## Time Estimates
-
-| Task | Time (GPU) | Time (CPU) |
-|------|-----------|-----------|
-| Extract embeddings (100 images) | 3 min | 15 min |
-| Extract embeddings (500 images) | 15 min | 1.5 hours |
-| Extract embeddings (1000 images) | 30 min | 3+ hours |
-| Clustering | 2 min | 5 min |
-| Visualizations | 5 min | 10 min |
-| **TOTAL (500 images)** | **~25 min** | **~2 hours** |
-
-## Tips for Best Results
-
-1. **Use high-quality segmented images** - Better segmentation = better features
-2. **Remove failed segmentations** - Check your work/not_work folders
-3. **Balance your dataset** - Similar number of images per designer if possible
-4. **Try different embeddings** - CLIP usually works best, but test others
-5. **Validate clusters qualitatively** - Look at figure7 to verify clusters make sense
-
-## Next Steps After Running
-
-1. ✅ Run the pipeline
-2. ✅ Check RESULTS_SUMMARY.txt for your metrics
-3. ✅ Review all figures
-4. ✅ Copy metrics to your report
-5. ✅ Write your analysis based on the results
-6. ✅ Submit before deadline!
-
-Good luck with your report! 🚀
