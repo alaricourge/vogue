@@ -1,0 +1,114 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Data files - TROP GROS POUR GITHUB
+data/embeddings/*.pkl
+data/results/**/*.pkl
+*.pkl
+
+# Images brutes - NE PAS VERSIONNER
+data/raw/**/*.jpg
+data/raw/**/*.png
+data/raw/**/*.jpeg
+data/processed/**/*.jpg
+data/processed/**/*.png
+data/processed/**/*.jpeg
+
+# Garder seulement quelques exemples d'images dans outputs
+# Tout le reste est regénérable
+outputs/figures/distribution_k5.png
+outputs/figures/distribution_k7.png
+outputs/figures/distribution_k10.png
+outputs/figures/hierarchical_metrics.png
+outputs/figures/comparison_kmeans_vs_hierarchical.png
+
+# Fichiers temporaires
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation temporaire
+files/
+MIGRATION_GUIDE.md
+
+# Models cache (Hugging Face)
+# Décommentez si vous ne voulez pas versionner les modèles téléchargés
+# .cache/
+# ~/.cache/huggingface/
+
+# Environment variables
+.env
+.env.local
